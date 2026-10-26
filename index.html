@@ -1,45 +1,181 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JagaPesisir | Beranda</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>JagaPesisir</h1>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="edukasi.html">Edukasi</a>
-            <a href="panduan.html">Panduan</a>
-            <a href="artikel.html">Artikel</a>
-            <a href="tentang.html">Tentang</a>
-        </nav>
-    </header>
+ 
+<!-- NAVBAR -->
+<header class="navbar">
+    <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="" class="logo-img">
+        <span>JagaPesisir</span>
+    </a>
+
+    <nav>
+        <a href="index.html" class="active">Beranda</a>
+        <a href="edukasi.html">Edukasi</a>
+        <a href="panduan.html">Panduan</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="tentang.html">Tentang</a>
+    </nav>
+</header>
 
     <main>
-        <section>
-            <h2>Jaga Laut, Jaga Masa Depan</h2>
-            <p>
-                Kenali ekosistem pesisir, pahami ancaman pencemaran,
-                dan mulai langkah sederhana untuk menjaga laut kita.
-            </p>
-            <a href="edukasi.html">Mulai Belajar</a>
+
+        <!-- HERO: FOTO DAN JUDUL -->
+        <section class="hero">
+            <img
+                src="pantai.jpg"
+                alt="Pemandangan laut dan pantai Indonesia"
+                class="hero-photo"
+            >
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <p class="eyebrow">EDUKASI LINGKUNGAN · SDG 13 & 14</p>
+
+                <h1>Jaga Pesisir,<br>Jaga Kehidupan.</h1>
+
+                <p>
+                    Mengenal keindahan laut, memahami ancamannya,
+                    dan memulai langkah kecil untuk menjaga pesisir kita.
+                </p>
+
+                <a href="edukasi.html" class="button">
+                    Mulai Menjelajahi <span>→</span>
+                </a>
+            </div>
+
+            <div class="hero-caption">
+                MERAWAT PESISIR, MERAWAT MASA DEPAN.
+            </div>
         </section>
 
-        <section>
-            <h2>Mengapa Pesisir Perlu Dijaga?</h2>
-            <p>
-                Laut dan pesisir merupakan rumah bagi beragam makhluk hidup
-                serta mendukung kehidupan masyarakat. Menjaganya adalah
-                tanggung jawab kita bersama.
-            </p>
+        <!-- PENGENALAN -->
+        <section class="intro container">
+            <div class="section-heading">
+                <p class="eyebrow">KENALI PESISIR KITA</p>
+                <h2>Alam yang perlu dijaga bersama.</h2>
+                <p>
+                    Laut dan pantai bukan hanya indah, tetapi juga menjadi
+                    rumah bagi banyak makhluk hidup. Yuk, kenali lebih dekat!
+                </p>
+            </div>
+
+            
+<div class="cards">
+
+    <!-- KARTU 1: KEHIDUPAN LAUT -->
+    <article class="card">
+        <div class="card-icon blue">
+            <img src="images/ombak.png" alt="">
+        </div>
+
+        <p class="card-label">01 / EKOSISTEM</p>
+        <h3>Kehidupan Laut</h3>
+        <p>
+            Kenali terumbu karang, biota laut, dan
+            keanekaragaman hayati yang perlu dilindungi.
+        </p>
+        <a href="edukasi.html">Pelajari lebih lanjut →</a>
+    </article>
+
+    <!-- KARTU 2: MENJAGA PESISIR -->
+    <article class="card">
+        <div class="card-icon green">
+            <img src="images/mangrove.png" alt="">
+        </div>
+
+        <p class="card-label">02 / PERLINDUNGAN</p>
+        <h3>Menjaga Pesisir</h3>
+        <p>
+            Pahami dampak sampah dan pentingnya menjaga
+            habitat alami di wilayah pesisir.
+        </p>
+        <a href="artikel.html">Baca artikel →</a>
+    </article>
+
+    <!-- KARTU 3: MULAI DARI KITA -->
+    <article class="card">
+        <div class="card-icon sand">
+            <img src="images/recycle.png" alt="">
+        </div>
+
+        <p class="card-label">03 / AKSI NYATA</p>
+        <h3>Mulai dari Kita</h3>
+        <p>
+            Lakukan kebiasaan sederhana untuk mengurangi
+            sampah dan menjaga lingkungan.
+        </p>
+        <a href="panduan.html">Lihat panduan →</a>
+    </article>
+
+</div>
+
         </section>
+
+        <!-- SDG -->
+        <section class="sdg-section">
+            <div class="container sdg-content">
+                <div>
+                    <p class="eyebrow">TUJUAN PEMBANGUNAN BERKELANJUTAN</p>
+                    <h2>Langkah kecil untuk bumi yang lebih baik.</h2>
+                    <p>
+                        JagaPesisir mendukung edukasi tentang perubahan iklim
+                        dan perlindungan ekosistem laut.
+                    </p>
+                </div>
+
+                <div class="sdg-items">
+                    <article class="sdg-card climate">
+                        <span>13</span>
+                        <div>
+                            <h3>Penanganan Perubahan Iklim</h3>
+                            <p>Meningkatkan kesadaran dan tindakan menghadapi perubahan iklim.</p>
+                        </div>
+                    </article>
+
+                    <article class="sdg-card ocean">
+                        <span>14</span>
+                        <div>
+                            <h3>Ekosistem Laut</h3>
+                            <p>Mendukung perlindungan laut dan sumber daya pesisir.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- AJAKAN -->
+        <section class="closing container">
+            <div>
+                <p class="eyebrow">MULAI DARI DIRI SENDIRI</p>
+                <h2>Laut yang bersih dimulai dari kita.</h2>
+                <p>Temukan aksi sederhana yang bisa kamu lakukan setiap hari.</p>
+            </div>
+
+            <a href="panduan.html" class="button closing-button">
+                Lihat Panduan →
+            </a>
+        </section>
+
     </main>
 
-    <footer>
-        <p>&copy; 2026 JagaPesisir — Edukasi Konservasi Laut dan Pantai</p>
-    </footer>
-</body>
-</html>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div>
+                <a href="index.html" class="logo">🌊 JagaPesisir</a>
+                <p>
+                    Edukasi sederhana untuk mengenal dan menjaga
+                    laut serta pantai Indonesia.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Jelajahi
