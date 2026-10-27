@@ -44,6 +44,7 @@ c. Edukasi (`edukasi.html`)
 
 d. Panduan (`panduan.html`)
 - kerang.jpg — [Link sumber gambar](https://pin.it/6vNoj9Ogk)
+  
 e. Artikel (`artikel.html`)
 - pencemaran-laut2.jpg — [Link sumber gambar](https://unsplash.com/id/foto/pencemaran-laut-dengan-sampah-plastik-dan-rumput-laut-qx9zJYc177A)
 - rehabilitasi-mangrove2.jpg — [Link sumber gambar](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Tawsan_Protected_Mangrove_Forest.jpg/960px-Tawsan_Protected_Mangrove_Forest.jpg?utm_source=id.wikipedia.org&utm_campaign=parser&utm_content=thumbnail)
