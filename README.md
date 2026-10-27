@@ -35,9 +35,125 @@ Teknologi yang digunakan dalam pengembangan website ini meliputi:
 - Git dan GitHub untuk pengelolaan versi kode dan kolaborasi kelompok.
   
 ## Penjelasan Implementasi
-Jelaskan navigasi, layout, responsive design,
-dan bagian kode HTML/CSS yang penting.
-Sertakan potongan kode beserta fungsinya.
+Website **JagaPesisir** dikembangkan menggunakan HTML5, CSS3, dan JavaScript untuk menyampaikan informasi edukatif mengenai kebersihan, perlindungan, dan pelestarian lingkungan pesisir. Website terdiri atas lima halaman utama, yaitu Beranda, Edukasi, Panduan, Artikel, dan Tentang Kami. Setiap halaman memiliki fungsi informasi yang berbeda, tetapi menggunakan identitas visual dan navigasi yang konsisten.
+
+1. Navigasi Website
+Navigasi digunakan untuk memudahkan pengunjung berpindah antarhalaman. Menu navigasi menghubungkan lima halaman utama melalui elemen tautan HTML (`<a>`). Logo JagaPesisir juga dapat diklik untuk kembali ke halaman Beranda.
+
+Contoh implementasi HTML:
+
+```html
+<header class="navbar">
+    <a href="index.html" class="logo">
+        <img src="images/logo.png"
+             alt="Logo JagaPesisir"
+             class="logo-img">
+        JagaPesisir
+    </a>
+
+    <nav aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="edukasi.html">Edukasi</a>
+        <a href="panduan.html">Panduan</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="tentang.html">Tentang Kami</a>
+    </nav>
+</header>
+```
+
+Elemen `<header>` berfungsi sebagai bagian kepala halaman, sedangkan `<nav>` mengelompokkan tautan navigasi. Atribut `aria-label` membantu menjelaskan fungsi navigasi kepada teknologi bantu. Kelas CSS digunakan untuk mengatur tampilan logo, posisi menu, jarak antaritem, dan penanda halaman aktif.
+
+### 2. Layout dan Konsistensi Tampilan
+
+Pengaturan tampilan dipusatkan dalam file `css/style.css`. Penggunaan satu stylesheet membantu menjaga konsistensi warna, tipografi, jarak, tombol, navigasi, footer, dan komponen ajakan pada seluruh halaman.
+
+Layout konten menggunakan container agar lebar teks dan elemen halaman tetap teratur. Beberapa bagian informasi menggunakan kartu dan grid untuk menyusun materi edukasi, artikel, serta informasi pendukung agar mudah dibaca.
+
+Contoh implementasi bagian ajakan:
+
+```html
+<section class="closing container">
+    <div>
+        <p class="eyebrow">MULAI DARI DIRI SENDIRI</p>
+        <h2>Laut yang bersih dimulai dari kita.</h2>
+        <p>Temukan aksi sederhana yang bisa kamu lakukan setiap hari.</p>
+    </div>
+
+    <a href="panduan.html" class="button closing-button">
+        Lihat Panduan →
+    </a>
+</section>
+```
+
+Bagian tersebut berfungsi mengajak pengunjung melakukan tindakan nyata sekaligus mengarahkan mereka menuju halaman Panduan. Kelas `closing`, `container`, dan `closing-button` menghubungkan struktur HTML dengan aturan tampilan di stylesheet.
+
+### 3. Footer dan Navigasi Tambahan
+
+Footer digunakan untuk menampilkan identitas website, deskripsi singkat, serta tautan ke halaman lainnya. Struktur footer dibuat konsisten pada setiap halaman agar pengunjung tetap dapat menemukan navigasi ketika mencapai bagian bawah website.
+
+Contoh implementasi HTML:
+
+```html
+<footer class="footer">
+    <div class="container footer-content">
+        <div>
+            <a href="index.html" class="logo">
+                <img src="images/logo.png"
+                     alt="Logo JagaPesisir"
+                     class="logo-img">
+                JagaPesisir
+            </a>
+
+            <p>
+                Website edukasi untuk mengenali, melindungi,
+                dan melestarikan laut serta ekosistem pesisir.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Jelajahi Website</h3>
+            <a href="index.html">Beranda</a>
+            <a href="edukasi.html">Edukasi</a>
+            <a href="panduan.html">Panduan</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="tentang.html">Tentang Kami</a>
+        </div>
+    </div>
+</footer>
+```
+
+Kelas `footer-content` digunakan untuk mengatur susunan isi footer, sedangkan `footer-links` mengelompokkan tautan navigasi tambahan. Pengaturan tampilannya diseragamkan melalui `css/style.css`.
+
+### 4. Responsive Design
+
+Desain responsif diterapkan melalui CSS media queries agar susunan konten dapat menyesuaikan ukuran layar. Pada layar yang lebih kecil, jumlah kolom pada grid dikurangi dan beberapa layout kartu diubah menjadi satu kolom. Pengaturan ini membantu menjaga keterbacaan teks, ukuran elemen, dan kenyamanan navigasi pada perangkat seluler.
+
+Contoh implementasi CSS:
+
+```css
+@media (max-width: 800px) {
+    .article-page .infographic-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 550px) {
+    .education-page .education-card,
+    .article-page .article-feature {
+        grid-template-columns: 1fr;
+    }
+}
+```
+
+Pada lebar layar maksimal 800 piksel, grid infografik artikel disusun menjadi dua kolom. Pada lebar maksimal 550 piksel, kartu edukasi dan bagian artikel unggulan menggunakan satu kolom. Dengan demikian, konten tetap tersusun dengan baik pada layar yang lebih sempit.
+
+### 5. Struktur HTML dan Pengelolaan Aset
+
+Setiap halaman menggunakan elemen HTML semantik seperti `<header>`, `<nav>`, `<main>`, `<section>`, dan `<footer>` untuk membedakan fungsi setiap bagian. Tautan antarhalaman menggunakan nama file HTML, sedangkan logo dan gambar disimpan dalam folder `images` dan dipanggil melalui alamat relatif.
+
+Pemisahan struktur HTML dan aturan CSS mempermudah proses pemeliharaan website. Perubahan tampilan umum dapat dilakukan melalui `css/style.css`, sementara perubahan isi informasi dilakukan pada file HTML halaman terkait. Pendekatan ini membuat pengembangan dan perbaikan website lebih terorganisasi.
+
 ## Struktur Folder
 JagaPesisir/
 - .vscode/
