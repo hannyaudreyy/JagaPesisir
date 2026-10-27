@@ -62,8 +62,8 @@ Penjelasan :
 - tentang.html: File yang berisi informasi mengenai website JagaPesisir dan tujuan pembuatannya.
 - README.md: File dokumentasi proyek yang memuat deskripsi website, anggota kelompok, teknologi yang diguna
 ## Website dan Repository
-URL GitHub Pages: https://hannyaudreyy.github.io/JagaPesisir/
-URL repository: https://github.com/hannyaudreyy/JagaPesisir
+- URL GitHub Pages: https://hannyaudreyy.github.io/JagaPesisir/
+- URL repository: https://github.com/hannyaudreyy/JagaPesisir
 
 ## Referensi
 1. Sumber informasi :
