@@ -8,235 +8,330 @@
     <title>Edukasi Lingkungan Pesisir | JagaPesisir</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
-    <header>
-        <h1>JagaPesisir</h1>
+<body class="education-page">
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="" class="logo-img">
+            <span>JagaPesisir</span>
+        </a>
 
         <nav aria-label="Navigasi utama">
             <a href="index.html">Beranda</a>
-            <a href="edukasi.html" aria-current="page">Edukasi</a>
+            <a href="edukasi.html" class="active" aria-current="page">Edukasi</a>
             <a href="panduan.html">Panduan</a>
             <a href="artikel.html">Artikel</a>
             <a href="tentang.html">Tentang</a>
         </nav>
     </header>
 
-    
-<main>
-    <section>
-        <h2>Menjaga Pesisir, Melindungi Kehidupan</h2>
-        <p>
-            Laut dan pantai bukan sekadar bentang alam, melainkan
-            bagian penting dari kehidupan yang menopang keanekaragaman
-            hayati dan masyarakat pesisir. Namun, pencemaran,
-            kerusakan habitat, dan perubahan iklim menjadi tantangan
-            bagi kelestariannya. Mengenali permasalahan ini merupakan
-            langkah awal untuk memahami pentingnya konservasi laut
-            dan pantai.
-        </p>
-        <a href="#pencemaran-laut">Jelajahi Edukasi</a>
-    </section>
+    <main>
 
-    <section id="pencemaran-laut">
-        <h2>01. Pencemaran Laut</h2>
-        <img
-            src="images/pencemaran-laut.jpg"
-            alt="Pencemaran sampah di lingkungan laut"
-            loading="lazy"
-        >
-        <p>
-            Pencemaran laut terjadi ketika sampah atau zat pencemar
-            masuk ke lingkungan perairan dan mengganggu keseimbangan
-            ekosistem. Sumber pencemaran dapat berasal dari aktivitas
-            di daratan maupun di laut. Pengelolaan sampah yang baik
-            dan pencegahan pencemaran diperlukan untuk melindungi
-            kualitas perairan serta kehidupan biota laut.
-        </p>
-    </section>
+        <!-- PEMBUKA EDUKASI -->
+        <section class="education-hero">
+            <p class="eyebrow">KENALI EKOSISTEM PESISIR</p>
 
-    <section id="sampah-pantai">
-        <h2>02. Sampah Pantai</h2>
-        <img
-            src="images/sampah-pantai.jpg"
-            alt="Sampah yang menumpuk di kawasan pantai"
-            loading="lazy"
-        >
-        <p>
-            Sampah di pantai dapat berasal dari kegiatan pengunjung,
-            aktivitas pesisir, serta sampah yang terbawa aliran sungai
-            dan arus laut. Jika tidak dikelola dengan baik, sampah
-            dapat mengganggu satwa, merusak keindahan pantai, dan
-            menambah beban pengelolaan lingkungan.
-        </p>
-        <p>
-            Dalam artikel Kementerian Kelautan dan Perikanan,
-            program Laut Sehat Bebas Sampah (Laut Sebasah) diperkenalkan
-            sebagai upaya pengurangan sampah laut melalui pendekatan
-            dari hulu hingga hilir dan kolaborasi berbagai pihak.
-        </p>
-        <p>
-            <a
-                href="https://kkp.go.id/djpk/laut-sebasah-upaya-nyata-menyelamatkan-laut-indonesia-nR3R/detail.html"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Baca referensi tentang program Laut Sebasah
+            <h1>Menjaga Pesisir, Melindungi Kehidupan</h1>
+
+            <p>
+                Laut dan pantai bukan sekadar bentang alam, melainkan
+                bagian penting dari kehidupan yang menopang keanekaragaman
+                hayati dan masyarakat pesisir. Namun, pencemaran,
+                kerusakan habitat, dan perubahan iklim menjadi tantangan
+                bagi kelestariannya. Mengenali permasalahan ini merupakan
+                langkah awal untuk memahami pentingnya konservasi laut
+                dan pantai.
+            </p>
+
+            <a href="#pencemaran-laut" class="button">
+                Jelajahi Edukasi →
             </a>
-        </p>
-    </section>
+        </section>
 
-    <section id="rehabilitasi-mangrove">
-        <h2>03. Rehabilitasi Mangrove</h2>
-        <img
-            src="images/rehabilitasi-mangrove.jpg"
-            alt="Bibit mangrove yang ditanam di kawasan pesisir"
-            loading="lazy"
-        >
-        <p>
-            Hutan mangrove merupakan ekosistem pesisir yang menyediakan
-            habitat bagi berbagai organisme dan membantu melindungi
-            garis pantai dari erosi. Kerusakan habitat mangrove dapat
-            mengurangi fungsi ekologis tersebut.
-        </p>
-        <p>
-            Rehabilitasi mangrove bertujuan memulihkan ekosistem yang
-            mengalami kerusakan. Upaya ini perlu mempertimbangkan
-            kondisi lingkungan, kesesuaian jenis mangrove, serta
-            pemeliharaan setelah penanaman agar pemulihan dapat
-            berlangsung secara berkelanjutan.
-        </p>
-    </section>
+        <!-- 01. PENCEMARAN LAUT -->
+        <section class="education-card" id="pencemaran-laut">
+            <img
+                src="images/pencemaran-laut.jpg"
+                alt="Pencemaran sampah di lingkungan laut"
+                loading="lazy"
+            >
 
-    <section id="ekosistem-pesisir">
-        <h2>04. Mengenal Ekosistem Pesisir</h2>
-        <img
-            src="images/ekosistem-pesisir.jpg"
-            alt="Kawasan pesisir dengan beragam habitat alami"
-            loading="lazy"
-        >
-        <p>
-            Ekosistem pesisir mencakup beragam habitat, seperti hutan
-            mangrove, padang lamun, pantai, dan terumbu karang.
-            Setiap habitat memiliki karakteristik dan fungsi yang
-            berbeda, tetapi semuanya saling berhubungan dalam
-            mendukung kehidupan di wilayah pesisir dan laut.
-        </p>
-        <p>
-            Kerusakan pada satu habitat dapat memengaruhi organisme
-            dan keseimbangan lingkungan di sekitarnya. Karena itu,
-            konservasi pesisir perlu memperhatikan keterkaitan
-            antarekosistem, bukan hanya melindungi satu kawasan.
-        </p>
-    </section>
+            <div class="education-content">
+                <p class="card-label">01 / PENCEMARAN</p>
+                <h2>Pencemaran Laut</h2>
 
-    <section id="keanekaragaman-laut">
-        <h2>05. Keanekaragaman Hayati Laut</h2>
-        <img
-            src="images/keanekaragaman-laut.jpg"
-            alt="Beragam ikan yang hidup di ekosistem terumbu karang"
-            loading="lazy"
-        >
-        <p>
-            Laut menjadi habitat bagi beragam organisme, mulai dari
-            plankton dan terumbu karang hingga ikan, penyu, dan
-            mamalia laut. Keanekaragaman hayati ini berperan dalam
-            menjaga keseimbangan ekosistem dan mendukung kehidupan
-            manusia.
-        </p>
-        <p>
-            Pencemaran, kerusakan habitat, dan eksploitasi sumber daya
-            yang tidak berkelanjutan dapat mengancam keberadaan
-            berbagai spesies. Perlindungan habitat serta pemanfaatan
-            sumber daya laut secara bertanggung jawab menjadi bagian
-            penting dari upaya konservasi.
-        </p>
-    </section>
+                <p>
+                    Pencemaran laut terjadi ketika sampah atau zat pencemar
+                    masuk ke lingkungan perairan dan mengganggu keseimbangan
+                    ekosistem. Sumber pencemaran dapat berasal dari aktivitas
+                    di daratan maupun di laut. Pengelolaan sampah yang baik
+                    dan pencegahan pencemaran diperlukan untuk melindungi
+                    kualitas perairan serta kehidupan biota laut.
+                </p>
+            </div>
+        </section>
 
-    <section id="iklim-dan-konservasi">
-        <h2>Konservasi untuk Masa Depan</h2>
-        <p>
-            Perubahan iklim dapat meningkatkan risiko bagi wilayah
-            pesisir melalui kenaikan permukaan laut dan perubahan
-            kondisi lingkungan. Oleh sebab itu, konservasi laut dan
-            pantai juga perlu disertai upaya menghadapi perubahan
-            iklim serta meningkatkan ketahanan masyarakat pesisir.
-        </p>
-        <p>
-            Tema JagaPesisir berkaitan dengan dua Tujuan Pembangunan
-            Berkelanjutan, yaitu SDG 13 tentang Penanganan Perubahan
-            Iklim dan SDG 14 tentang Ekosistem Lautan. Keduanya
-            menekankan pentingnya tindakan untuk menghadapi risiko
-            iklim serta melindungi dan memanfaatkan ekosistem laut
-            secara berkelanjutan.
-        </p>
-    </section>
+        <!-- 02. SAMPAH PANTAI -->
+        <section class="education-card" id="sampah-pantai">
+            <img
+                src="images/sampah-pantai.jpg"
+                alt="Sampah yang menumpuk di kawasan pantai"
+                loading="lazy"
+            >
 
-    <section id="fakta-dan-sumber">
-        <h2>Fakta dan Sumber Informasi</h2>
-        <p>
-            Salah satu fakta yang disampaikan dalam artikel KKP
-            tentang Laut Sebasah adalah bahwa studi UNEP tahun 2021
-            yang dikutip dalam artikel tersebut memperkirakan
-            sekitar 80% sampah laut berasal dari daratan.
-            Hal ini memperlihatkan pentingnya pengelolaan sampah
-            sebelum sampah mencapai sungai, pantai, dan laut.
-        </p>
-        <p>
-            Untuk memahami konservasi laut dan kaitannya dengan
-            pembangunan berkelanjutan, kamu dapat membaca sumber
-            berikut.
-        </p>
-        <ul>
-            <li>
+            <div class="education-content">
+                <p class="card-label">02 / PENGELOLAAN SAMPAH</p>
+                <h2>Sampah Pantai</h2>
+
+                <p>
+                    Sampah di pantai dapat berasal dari kegiatan pengunjung,
+                    aktivitas pesisir, serta sampah yang terbawa aliran
+                    sungai dan arus laut. Jika tidak dikelola dengan baik,
+                    sampah dapat mengganggu satwa, merusak keindahan pantai,
+                    dan menambah beban pengelolaan lingkungan.
+                </p>
+
+                <p>
+                    Dalam artikel Kementerian Kelautan dan Perikanan,
+                    program Laut Sehat Bebas Sampah (Laut Sebasah)
+                    diperkenalkan sebagai upaya pengurangan sampah laut
+                    melalui pendekatan dari hulu hingga hilir dan
+                    kolaborasi berbagai pihak.
+                </p>
+
                 <a
                     href="https://kkp.go.id/djpk/laut-sebasah-upaya-nyata-menyelamatkan-laut-indonesia-nR3R/detail.html"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Kementerian Kelautan dan Perikanan — Laut Sebasah
+                    Baca referensi tentang program Laut Sebasah →
                 </a>
-            </li>
-            <li>
-                <a
-                    href="https://sdgs.un.org/goals/goal13"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    United Nations — SDG 13: Climate Action
+            </div>
+        </section>
+
+        <!-- 03. REHABILITASI MANGROVE -->
+        <section class="education-card" id="rehabilitasi-mangrove">
+            <img
+                src="images/rehabilitasi-mangrove.jpg"
+                alt="Bibit mangrove yang ditanam di kawasan pesisir"
+                loading="lazy"
+            >
+
+            <div class="education-content">
+                <p class="card-label">03 / PELESTARIAN</p>
+                <h2>Rehabilitasi Mangrove</h2>
+
+                <p>
+                    Hutan mangrove merupakan ekosistem pesisir yang
+                    menyediakan habitat bagi berbagai organisme dan
+                    membantu melindungi garis pantai dari erosi.
+                    Kerusakan habitat mangrove dapat mengurangi fungsi
+                    ekologis tersebut.
+                </p>
+
+                <p>
+                    Rehabilitasi mangrove bertujuan memulihkan ekosistem
+                    yang mengalami kerusakan. Upaya ini perlu
+                    mempertimbangkan kondisi lingkungan, kesesuaian jenis
+                    mangrove, serta pemeliharaan setelah penanaman agar
+                    pemulihan dapat berlangsung secara berkelanjutan.
+                </p>
+            </div>
+        </section>
+
+        <!-- 04. EKOSISTEM PESISIR -->
+        <section class="education-card" id="ekosistem-pesisir">
+            <img
+                src="images/ekosistem-pesisir.jpg"
+                alt="Kawasan pesisir dengan beragam habitat alami"
+                loading="lazy"
+            >
+
+            <div class="education-content">
+                <p class="card-label">04 / EKOSISTEM</p>
+                <h2>Mengenal Ekosistem Pesisir</h2>
+
+                <p>
+                    Ekosistem pesisir mencakup beragam habitat, seperti
+                    hutan mangrove, padang lamun, pantai, dan terumbu
+                    karang. Setiap habitat memiliki karakteristik dan
+                    fungsi yang berbeda, tetapi semuanya saling
+                    berhubungan dalam mendukung kehidupan di wilayah
+                    pesisir dan laut.
+                </p>
+
+                <p>
+                    Kerusakan pada satu habitat dapat memengaruhi
+                    organisme dan keseimbangan lingkungan di sekitarnya.
+                    Karena itu, konservasi pesisir perlu memperhatikan
+                    keterkaitan antarekosistem, bukan hanya melindungi
+                    satu kawasan.
+                </p>
+            </div>
+        </section>
+
+        <!-- 05. KEANEKARAGAMAN HAYATI -->
+        <section class="education-card" id="keanekaragaman-laut">
+            <img
+                src="images/keanekaragaman-laut.jpg"
+                alt="Beragam ikan yang hidup di ekosistem terumbu karang"
+                loading="lazy"
+            >
+
+            <div class="education-content">
+                <p class="card-label">05 / KEANEKARAGAMAN HAYATI</p>
+                <h2>Keanekaragaman Hayati Laut</h2>
+
+                <p>
+                    Laut menjadi habitat bagi beragam organisme, mulai
+                    dari plankton dan terumbu karang hingga ikan, penyu,
+                    dan mamalia laut. Keanekaragaman hayati ini berperan
+                    dalam menjaga keseimbangan ekosistem dan mendukung
+                    kehidupan manusia.
+                </p>
+
+                <p>
+                    Pencemaran, kerusakan habitat, dan eksploitasi sumber
+                    daya yang tidak berkelanjutan dapat mengancam
+                    keberadaan berbagai spesies. Perlindungan habitat
+                    serta pemanfaatan sumber daya laut secara
+                    bertanggung jawab menjadi bagian penting dari
+                    upaya konservasi.
+                </p>
+            </div>
+        </section>
+
+        <!-- KONSERVASI DAN IKLIM -->
+        <section class="education-info" id="iklim-dan-konservasi">
+            <p class="eyebrow">SDG 13 & SDG 14</p>
+            <h2>Konservasi untuk Masa Depan</h2>
+
+            <p>
+                Perubahan iklim dapat meningkatkan risiko bagi wilayah
+                pesisir melalui kenaikan permukaan laut dan perubahan
+                kondisi lingkungan. Oleh sebab itu, konservasi laut dan
+                pantai juga perlu disertai upaya menghadapi perubahan
+                iklim serta meningkatkan ketahanan masyarakat pesisir.
+            </p>
+
+            <p>
+                Tema JagaPesisir berkaitan dengan dua Tujuan Pembangunan
+                Berkelanjutan, yaitu SDG 13 tentang Penanganan Perubahan
+                Iklim dan SDG 14 tentang Ekosistem Lautan. Keduanya
+                menekankan pentingnya tindakan untuk menghadapi risiko
+                iklim serta melindungi dan memanfaatkan ekosistem laut
+                secara berkelanjutan.
+            </p>
+        </section>
+
+        <!-- FAKTA DAN SUMBER -->
+        <section class="education-info" id="fakta-dan-sumber">
+            <p class="eyebrow">REFERENSI</p>
+            <h2>Fakta dan Sumber Informasi</h2>
+
+            <p>
+                Salah satu fakta yang disampaikan dalam artikel KKP
+                tentang Laut Sebasah adalah bahwa studi UNEP tahun 2021
+                yang dikutip dalam artikel tersebut memperkirakan
+                sekitar 80% sampah laut berasal dari daratan. Hal ini
+                memperlihatkan pentingnya pengelolaan sampah sebelum
+                sampah mencapai sungai, pantai, dan laut.
+            </p>
+
+            <p>
+                Untuk memahami konservasi laut dan kaitannya dengan
+                pembangunan berkelanjutan, kamu dapat membaca sumber
+                berikut.
+            </p>
+
+            <ul>
+                <li>
+                    <a
+                        href="https://kkp.go.id/djpk/laut-sebasah-upaya-nyata-menyelamatkan-laut-indonesia-nR3R/detail.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Kementerian Kelautan dan Perikanan — Laut Sebasah →
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://sdgs.un.org/goals/goal13"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        United Nations — SDG 13: Climate Action →
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://sdgs.un.org/goals/goal14"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        United Nations — SDG 14: Life Below Water →
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- AJAKAN SEBELUM FOOTER: MENYESUAIKAN BERANDA -->
+        <section class="closing container">
+            <div>
+                <p class="eyebrow">KENALI • LINDUNGI • LESTARIKAN</p>
+                <h2>Pesisir Lestari Dimulai dari Aksi Kita.</h2>
+                <p>
+                    Sebarkan kebiasaan baik dan ajak lebih banyak orang
+                    untuk menjaga laut dan pantai.
+                </p>
+            </div>
+
+            <a href="tentang.html" class="button closing-button">
+                Tentang JagaPesisir →
+            </a>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SERAGAM -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <div class="footer-about">
+                <a href="index.html" class="logo">
+                    <img
+                        src="images/recycle%20logo.png"
+                        alt=""
+                        class="logo-img"
+                    >
+                    <span>JagaPesisir</span>
                 </a>
-            </li>
-            <li>
-                <a
-                    href="https://sdgs.un.org/goals/goal14"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    United Nations — SDG 14: Life Below Water
-                </a>
-            </li>
-        </ul>
-    </section>
 
-    <section>
-        <h2>Mulai dari Kepedulian</h2>
-        <p>
-            Menjaga laut dan pantai tidak hanya menjadi tanggung
-            jawab pemerintah atau komunitas konservasi. Kita juga
-            dapat berkontribusi dengan mengurangi sampah, menjaga
-            kebersihan pantai, menghargai habitat alami, dan
-            mendukung kegiatan pelestarian lingkungan.
-        </p>
-        <a href="panduan.html">Lihat Panduan Aksi</a>
-    </section>
-</main>
+                <p>
+                    Website edukasi untuk mengenali, melindungi,
+                    dan melestarikan laut serta ekosistem pesisir.
+                </p>
+            </div>
 
+            <div class="footer-links">
+                <h3>Jelajahi Website</h3>
+                <a href="index.html">Beranda</a>
+                <a href="edukasi.html">Edukasi</a>
+                <a href="panduan.html">Panduan</a>
+                <a href="artikel.html">Artikel</a>
+                <a href="tentang.html">Tentang Kami</a>
+            </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 JagaPesisir. Kenali, lindungi, lestarikan.</p>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© 2026 JagaPesisir. Kenali, Lindungi, Lestarikan.</p>
+        </div>
     </footer>
 
 </body>
 </html>
-
