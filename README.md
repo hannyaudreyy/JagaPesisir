@@ -27,31 +27,26 @@ Jelaskan navigasi, layout, responsive design,
 dan bagian kode HTML/CSS yang penting.
 Sertakan potongan kode beserta fungsinya.
 ## Struktur Folder
-- index.html — Halaman Beranda
-- edukasi.html — Halaman Edukasi
-- panduan.html — Halaman Panduan
-- artikel.html — Halaman Artikel
-- tentang.html — Halaman Tentang Kami
-- css/style.css — File untuk mengatur tampilan website
-- images/ — Folder untuk menyimpan gambar yang digunakan pada website
-
-- index.html merupakan halaman Beranda yang menjadi halaman utama website. Halaman ini berfungsi memperkenalkan JagaPesisir kepada pengunjung serta memberikan akses ke halaman lainnya melalui navigasi website.
-
-- edukasi.html merupakan halaman yang menyajikan informasi edukatif mengenai lingkungan pesisir, termasuk pentingnya menjaga kebersihan laut dan melestarikan ekosistem pesisir.
-
-- panduan.html merupakan halaman yang berisi panduan atau langkah-langkah yang dapat dilakukan pengunjung untuk menjaga dan melestarikan lingkungan pesisir.
-
-- artikel.html merupakan halaman yang menampilkan artikel terkait lingkungan pesisir, pencemaran laut, dan upaya pelestarian lingkungan.
-
-- tentang.html merupakan halaman yang memberikan informasi mengenai website JagaPesisir, termasuk tujuan dan latar belakang pembuatannya.
-  
-- Folder css/ digunakan untuk menyimpan file CSS yang mengatur tampilan visual website. Di dalamnya terdapat file style.css yang berfungsi mengatur warna, tipografi, jarak antar-elemen, tata letak, navigasi, kartu informasi, tombol, serta penyesuaian tampilan pada berbagai ukuran layar. Penggunaan satu file CSS eksternal memungkinkan aturan desain digunakan bersama oleh beberapa halaman sehingga tampilan website lebih konsisten dan kode lebih mudah dipelihara.
-
-- Folder images/ digunakan untuk menyimpan berbagai aset gambar yang mendukung konten website, seperti gambar laut, mangrove, dan lingkungan pesisir. Dengan mengumpulkan gambar dalam satu folder, aset lebih mudah ditemukan dan dipanggil dari file HTML menggunakan atribut src.
-
-- File README.md berfungsi sebagai dokumentasi utama proyek. File ini memuat informasi mengenai deskripsi dan tujuan website, anggota kelompok, halaman website, teknologi yang digunakan, penjelasan implementasi, struktur folder, tautan website dan repository, serta referensi yang digunakan.
-
-Secara keseluruhan, struktur folder ini membantu memisahkan konten, tampilan, aset gambar, dan dokumentasi berdasarkan fungsinya. Dengan demikian, proyek JagaPesisir menjadi lebih rapi, mudah dipahami, dan lebih mudah dikembangkan
+JagaPesisir/
+- .vscode/
+- css/
+- images/
+- index.html
+- edukasi.html
+- panduan.html
+- artikel.html
+- tentang.html
+- README.md
+Penjelasan :
+-.vscode/: Folder untuk menyimpan konfigurasi pengembangan proyek di Visual Studio Code.
+- css/: Folder untuk menyimpan file CSS yang mengatur tampilan website, seperti warna, tipografi, tata letak, dan desain responsif.
+- images/: Folder untuk menyimpan aset gambar yang digunakan sebagai pendukung visual pada halaman website.
+- index.html: File untuk menampilkan halaman Beranda sebagai halaman utama website JagaPesisir.
+- edukasi.html: File untuk menampilkan informasi edukasi mengenai lingkungan pesisir dan pentingnya menjaga kelestarian laut.
+- panduan.html: File yang berisi panduan atau langkah-langkah untuk menjaga dan melestarikan lingkungan pesisir.
+- artikel.html: File untuk menampilkan artikel terkait lingkungan pesisir dan upaya pelestariannya.
+- tentang.html: File yang berisi informasi mengenai website JagaPesisir dan tujuan pembuatannya.
+- README.md: File dokumentasi proyek yang memuat deskripsi website, anggota kelompok, teknologi yang diguna
 ## Website dan Repository
 URL GitHub Pages   :
 URL repository     :
