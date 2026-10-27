@@ -13,7 +13,13 @@ SDG 13 dan 14
    Sasaran Pengguna :
 
 ## Halaman Website
-Beranda, Edukasi, Panduan, Artikel, Tentang.
+- Beranda
+- Edukasi : Halaman Edukasi (edukasi.html) dirancang untuk memberikan informasi dan meningkatkan pemahaman pengunjung mengenai pentingnya menjaga kelestarian lingkungan pesisir. Konten halaman ini membahas permasalahan lingkungan, khususnya sampah laut, dampaknya terhadap ekosistem, serta pentingnya upaya pelestarian laut. Informasi yang disajikan bertujuan meningkatkan kesadaran pengunjung agar lebih peduli terhadap kebersihan dan keberlanjutan lingkungan pesisir. Dari sisi implementasi, halaman ini dibuat menggunakan HTML5 untuk menyusun struktur konten dan CSS3 untuk mengatur tampilan, termasuk bagian pengenalan halaman (hero), kartu informasi edukasi, serta bagian penutup. Penggunaan komponen kartu membantu menyajikan informasi secara terstruktur agar lebih mudah dibaca dan dipahami.
+- 
+- Panduan
+- Artikel : Halaman Artikel (artikel.html) dirancang sebagai sarana untuk menyajikan artikel dan informasi tambahan mengenai lingkungan pesisir. Halaman ini menggunakan judul utama “Artikel dan Inspirasi Pesisir” untuk memperkenalkan konten yang berkaitan dengan ekosistem pesisir dan upaya pelestariannya. Dari sisi desain, bagian pengenalan halaman menggunakan kombinasi warna biru laut dan hijau mangrove yang sesuai dengan identitas visual JagaPesisir, serta aksen warna aqua sebagai elemen pendukung. Implementasi halaman menggunakan HTML5 untuk menyusun struktur konten dan CSS3 untuk mengatur tata letak, warna, tipografi, serta elemen visual. Halaman ini diharapkan dapat membantu pengunjung memperoleh informasi tambahan dan menambah wawasan mengenai pentingnya menjaga kelestarian lingkungan pesisir
+  
+- Tentang.
 ## Teknologi
 HTML5, CSS3, Flexbox/Grid, CSS Media Queries.
 ## Penjelasan Implementasi
@@ -21,22 +27,29 @@ Jelaskan navigasi, layout, responsive design,
 dan bagian kode HTML/CSS yang penting.
 Sertakan potongan kode beserta fungsinya.
 ## Struktur Folder
-Struktur folder project JagaPesisir secara umum:
-JagaPesisir/
-├── index.html
-├── edukasi.html
-├── panduan.html
-├── artikel.html
-├── tentang.html
-├── css/
-│   └── style.css
-├── images/
-└── README.md
-Folder css/ digunakan untuk menyimpan file CSS yang mengatur tampilan visual website. Di dalamnya terdapat file style.css yang berfungsi mengatur warna, tipografi, jarak antar-elemen, tata letak, navigasi, kartu informasi, tombol, serta penyesuaian tampilan pada berbagai ukuran layar. Penggunaan satu file CSS eksternal memungkinkan aturan desain digunakan bersama oleh beberapa halaman sehingga tampilan website lebih konsisten dan kode lebih mudah dipelihara.
+- index.html — Halaman Beranda
+- edukasi.html — Halaman Edukasi
+- panduan.html — Halaman Panduan
+- artikel.html — Halaman Artikel
+- tentang.html — Halaman Tentang Kami
+- css/style.css — File untuk mengatur tampilan website
+- images/ — Folder untuk menyimpan gambar yang digunakan pada website
 
-Folder images/ digunakan untuk menyimpan berbagai aset gambar yang mendukung konten website, seperti gambar laut, mangrove, dan lingkungan pesisir. Dengan mengumpulkan gambar dalam satu folder, aset lebih mudah ditemukan dan dipanggil dari file HTML menggunakan atribut src.
+- index.html merupakan halaman Beranda yang menjadi halaman utama website. Halaman ini berfungsi memperkenalkan JagaPesisir kepada pengunjung serta memberikan akses ke halaman lainnya melalui navigasi website.
 
-File README.md berfungsi sebagai dokumentasi utama proyek. File ini memuat informasi mengenai deskripsi dan tujuan website, anggota kelompok, halaman website, teknologi yang digunakan, penjelasan implementasi, struktur folder, tautan website dan repository, serta referensi yang digunakan.
+- edukasi.html merupakan halaman yang menyajikan informasi edukatif mengenai lingkungan pesisir, termasuk pentingnya menjaga kebersihan laut dan melestarikan ekosistem pesisir.
+
+- panduan.html merupakan halaman yang berisi panduan atau langkah-langkah yang dapat dilakukan pengunjung untuk menjaga dan melestarikan lingkungan pesisir.
+
+- artikel.html merupakan halaman yang menampilkan artikel terkait lingkungan pesisir, pencemaran laut, dan upaya pelestarian lingkungan.
+
+- tentang.html merupakan halaman yang memberikan informasi mengenai website JagaPesisir, termasuk tujuan dan latar belakang pembuatannya.
+  
+- Folder css/ digunakan untuk menyimpan file CSS yang mengatur tampilan visual website. Di dalamnya terdapat file style.css yang berfungsi mengatur warna, tipografi, jarak antar-elemen, tata letak, navigasi, kartu informasi, tombol, serta penyesuaian tampilan pada berbagai ukuran layar. Penggunaan satu file CSS eksternal memungkinkan aturan desain digunakan bersama oleh beberapa halaman sehingga tampilan website lebih konsisten dan kode lebih mudah dipelihara.
+
+- Folder images/ digunakan untuk menyimpan berbagai aset gambar yang mendukung konten website, seperti gambar laut, mangrove, dan lingkungan pesisir. Dengan mengumpulkan gambar dalam satu folder, aset lebih mudah ditemukan dan dipanggil dari file HTML menggunakan atribut src.
+
+- File README.md berfungsi sebagai dokumentasi utama proyek. File ini memuat informasi mengenai deskripsi dan tujuan website, anggota kelompok, halaman website, teknologi yang digunakan, penjelasan implementasi, struktur folder, tautan website dan repository, serta referensi yang digunakan.
 
 Secara keseluruhan, struktur folder ini membantu memisahkan konten, tampilan, aset gambar, dan dokumentasi berdasarkan fungsinya. Dengan demikian, proyek JagaPesisir menjadi lebih rapi, mudah dipahami, dan lebih mudah dikembangkan
 ## Website dan Repository
@@ -45,6 +58,7 @@ URL repository     :
 
 ## Referensi
 1. Sumber informasi :
+   
    a. edukasi
    - Kementerian Kelautan dan Perikanan (KKP) — Laut Sebasah — [Link sumber informasi](https://www.kkp.go.id/news/news-detail/laut-sebasah-upaya-nyata-menyelamatkan-laut-indonesia-nR3R.html)
   - United Nations — SDG 13: Climate Action — [Link sumber informasi](https://sdgs.un.org/goals/goal13)
@@ -53,7 +67,8 @@ URL repository     :
    - Kementerian Kelautan dan Perikanan (KKP) — Laut Sebasah — [Link sumber informasi](https://www.kkp.go.id/news/news-detail/laut-sebasah-upaya-nyata-menyelamatkan-laut-indonesia-nR3R.html)
 
 
-2. Sumber Gambar : 
+2. Sumber Gambar :
+   
 a. Logo Navbar dan Footer (Semua Halaman)
 - logo.png — [Link sumber gambar](TEMPEL_LINK_DI_SINI)
 
@@ -81,19 +96,6 @@ e. Artikel (`artikel.html`)
 - rehabilitasi-mangrove2.jpg — [Link sumber gambar](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Tawsan_Protected_Mangrove_Forest.jpg/960px-Tawsan_Protected_Mangrove_Forest.jpg?utm_source=id.wikipedia.org&utm_campaign=parser&utm_content=thumbnail)
 
 f. Tentang Kami (`tentang.html`)
-- kids-cleanup.png — [Link s
+- kids-cleanup.png — [Link sumber gambar](https://pin.it/6WOWkOhAb)
 
 
-3. Struktur Folder
-- index.html — Halaman Beranda
-- edukasi.html — Halaman Edukasi
-- panduan.html — Halaman Panduan
-- artikel.html — Halaman Artikel
-- tentang.html — Halaman Tentang Kami
-- css/style.css — File untuk mengatur tampilan website
-- images/ — Folder untuk menyimpan gambar yang digunakan pada website
-
-
-
-5. Sumber Gambar
-umber gambar](https://pin.it/6WOWkOhAb)
