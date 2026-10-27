@@ -195,7 +195,7 @@ Penjelasan :
 2. Sumber Gambar :
    
 a. Logo Navbar dan Footer (Semua Halaman)
-- logo.png — [Link sumber gambar](TEMPEL_LINK_DI_SINI)
+- logo.png — [Link sumber gambar]((https://canva.link/bfvxa33njwhc3x5))
 
 b. Beranda (`index.html`)
 - mangrove.jpg — [Link sumber gambar](https://id.pinterest.com/pin/1108378158263744062/)
