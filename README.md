@@ -8,20 +8,32 @@ SDG 13 dan 14
 3. Komang Trisna Laksmi Ananda Putri - 2515091149 - Pengembangan halaman Panduan dan Tentang. 
 
 ## Deskripsi Website 
-   Tujuan : 
-   Manfaat :
-   Sasaran Pengguna :
+   - Tujuan : Membangun website edukasi JagaPesisir untuk meningkatkan kesadaran masyarakat tentang pentingnya menjaga                   kebersihan dan kelestarian lingkungan pesisir, serta mendorong kepedulian terhadap ekosistem laut dan pantai.
+   - Manfaat : 1. Memberikan informasi dan edukasi mengenai kebersihan serta kelestarian lingkungan pesisir.
+               2. Menambah pengetahuan pengguna tentang pentingnya menjaga ekosistem pesisir.
+               3. Menyediakan panduan dan artikel yang dapat menjadi sumber informasi bagi masyarakat.
+               4. Mendorong masyarakat untuk menerapkan perilaku yang peduli terhadap lingkungan pesisir.
+   - Sasaran Pengguna : Website JagaPesisir ditujukan kepada masyarakat umum, khususnya pelajar, mahasiswa, dan generasi                           muda yang ingin mempelajari pentingnya menjaga kebersihan dan kelestarian lingkungan pesisir.
 
 ## Halaman Website
-- Beranda
+- Beranda : Halaman Beranda (index.html) dirancang sebagai halaman utama website JagaPesisir yang memperkenalkan tujuan website serta mengajak pengunjung untuk lebih peduli terhadap kebersihan dan kelestarian lingkungan pesisir. Halaman ini menjadi titik awal bagi pengguna untuk mengenal informasi yang tersedia dan mengakses halaman lainnya melalui navigasi website. Dari sisi implementasi, halaman ini dibuat menggunakan HTML5 untuk menyusun struktur konten dan CSS3 untuk mengatur tampilan visual, seperti tata letak, tipografi, warna, gambar, serta jarak antarelemen. Halaman Beranda juga dilengkapi dengan navbar untuk memudahkan perpindahan halaman, bagian utama (hero section) untuk menampilkan pengenalan website, serta footer sebagai bagian penutup halaman. Pengaturan CSS digunakan untuk menjaga konsistensi tampilan dan memberikan pengalaman penggunaan yang nyaman bagi pengunjung.
+  
 - Edukasi : Halaman Edukasi (edukasi.html) dirancang untuk memberikan informasi dan meningkatkan pemahaman pengunjung mengenai pentingnya menjaga kelestarian lingkungan pesisir. Konten halaman ini membahas permasalahan lingkungan, khususnya sampah laut, dampaknya terhadap ekosistem, serta pentingnya upaya pelestarian laut. Informasi yang disajikan bertujuan meningkatkan kesadaran pengunjung agar lebih peduli terhadap kebersihan dan keberlanjutan lingkungan pesisir. Dari sisi implementasi, halaman ini dibuat menggunakan HTML5 untuk menyusun struktur konten dan CSS3 untuk mengatur tampilan, termasuk bagian pengenalan halaman (hero), kartu informasi edukasi, serta bagian penutup. Penggunaan komponen kartu membantu menyajikan informasi secara terstruktur agar lebih mudah dibaca dan dipahami.
-- 
-- Panduan
+
+- Panduan : Halaman Panduan (panduan.html) dirancang untuk memberikan arahan dan langkah-langkah praktis kepada pengunjung mengenai cara menjaga kebersihan dan kelestarian lingkungan pesisir. Halaman ini menyajikan informasi yang dapat diterapkan dalam kehidupan sehari-hari, seperti mengurangi penggunaan plastik, membuang sampah pada tempatnya, serta ikut berpartisipasi dalam menjaga kebersihan pantai. Dari sisi desain, halaman ini menggunakan identitas visual JagaPesisir dengan perpaduan warna biru laut dan hijau yang mencerminkan kepedulian terhadap lingkungan. Implementasi halaman menggunakan HTML5 untuk menyusun struktur konten dan CSS3 untuk mengatur tata letak, warna, tipografi, serta elemen visual agar informasi panduan mudah dibaca dan dipahami pengunjung.
+  
 - Artikel : Halaman Artikel (artikel.html) dirancang sebagai sarana untuk menyajikan artikel dan informasi tambahan mengenai lingkungan pesisir. Halaman ini menggunakan judul utama “Artikel dan Inspirasi Pesisir” untuk memperkenalkan konten yang berkaitan dengan ekosistem pesisir dan upaya pelestariannya. Dari sisi desain, bagian pengenalan halaman menggunakan kombinasi warna biru laut dan hijau mangrove yang sesuai dengan identitas visual JagaPesisir, serta aksen warna aqua sebagai elemen pendukung. Implementasi halaman menggunakan HTML5 untuk menyusun struktur konten dan CSS3 untuk mengatur tata letak, warna, tipografi, serta elemen visual. Halaman ini diharapkan dapat membantu pengunjung memperoleh informasi tambahan dan menambah wawasan mengenai pentingnya menjaga kelestarian lingkungan pesisir
   
-- Tentang.
+- Tentang : Halaman Tentang (tentang.html) dirancang untuk memperkenalkan website JagaPesisir, termasuk tujuan pembuatan website dan pentingnya meningkatkan kesadaran masyarakat terhadap kebersihan serta kelestarian lingkungan pesisir. Halaman ini memberikan gambaran mengenai peran JagaPesisir sebagai media informasi dan edukasi yang mendorong pengunjung untuk lebih peduli terhadap ekosistem laut dan pesisir. Dari sisi desain, halaman ini menggunakan elemen visual yang selaras dengan identitas website, seperti perpaduan warna biru laut dan hijau yang menggambarkan lingkungan pesisir. Implementasi halaman menggunakan HTML5 untuk menyusun struktur informasi dan CSS3 untuk mengatur tampilan, tata letak, warna, tipografi, serta elemen pendukung lainnya sehingga informasi mengenai JagaPesisir dapat disampaikan secara jelas dan terstruktur.
+  
 ## Teknologi
-HTML5, CSS3, Flexbox/Grid, CSS Media Queries.
+Teknologi yang digunakan dalam pengembangan website ini meliputi:
+- HTML5 untuk menyusun struktur halaman website.
+- CSS3 untuk mengatur tampilan dan desain website.
+- Flexbox dan CSS Grid untuk membantu pengaturan tata letak.
+- CSS Media Queries untuk mendukung desain responsif pada berbagai ukuran layar.
+- Git dan GitHub untuk pengelolaan versi kode dan kolaborasi kelompok.
+  
 ## Penjelasan Implementasi
 Jelaskan navigasi, layout, responsive design,
 dan bagian kode HTML/CSS yang penting.
@@ -50,8 +62,8 @@ Penjelasan :
 - tentang.html: File yang berisi informasi mengenai website JagaPesisir dan tujuan pembuatannya.
 - README.md: File dokumentasi proyek yang memuat deskripsi website, anggota kelompok, teknologi yang diguna
 ## Website dan Repository
-URL GitHub Pages   :
-URL repository     :
+URL GitHub Pages: https://hannyaudreyy.github.io/JagaPesisir/
+URL repository: https://github.com/hannyaudreyy/JagaPesisir
 
 ## Referensi
 1. Sumber informasi :
