@@ -37,7 +37,9 @@ JagaPesisir/
 - artikel.html
 - tentang.html
 - README.md
+
 Penjelasan :
+
 -.vscode/: Folder untuk menyimpan konfigurasi pengembangan proyek di Visual Studio Code.
 - css/: Folder untuk menyimpan file CSS yang mengatur tampilan website, seperti warna, tipografi, tata letak, dan desain responsif.
 - images/: Folder untuk menyimpan aset gambar yang digunakan sebagai pendukung visual pada halaman website.
