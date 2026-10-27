@@ -544,4 +544,273 @@ a {
         gap: 22px;
     }
 }
-```
+
+
+/* SECTION FAKTA PESISIR */
+.coast-facts {
+    padding: 65px 0;
+    background: white;
+}
+
+.fact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.fact-item {
+    padding: 25px;
+    border: 1px solid #E1EBEB;
+    border-radius: 10px;
+    background: var(--background);
+}
+
+.fact-number {
+    color: var(--ocean);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.fact-item h3 {
+    margin: 15px 0 8px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.fact-item p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+/* SECTION ANCAMAN */
+.coast-threats {
+    padding: 65px 0;
+    background: #EAF5F3;
+}
+
+.threats-layout {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: start;
+    gap: 55px;
+}
+
+.threats-intro h2 {
+    margin: 0 0 15px;
+    color: var(--mangrove);
+    font-size: clamp(27px, 3.5vw, 35px);
+    line-height: 1.3;
+}
+
+.threats-intro > p:not(.eyebrow) {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.text-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--ocean);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.text-link:hover {
+    color: var(--mangrove);
+}
+
+.threat-list {
+    display: grid;
+    gap: 14px;
+}
+
+.threat-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 20px;
+    border-radius: 9px;
+    background: white;
+}
+
+.threat-number {
+    flex-shrink: 0;
+    color: var(--mangrove);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.threat-item h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+}
+
+.threat-item p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+/* SECTION AKSI */
+.coast-actions {
+    padding: 65px 0;
+    background: var(--background);
+}
+
+.action-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.action-card {
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid #E1EBEB;
+    background: white;
+}
+
+.action-mark {
+    display: inline-grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 9px;
+    background: #E2F0E3;
+    color: var(--mangrove);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.action-card h3 {
+    margin: 17px 0 8px;
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.action-card p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.actions-link {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* RESPONSIVE UNTUK SECTION TAMBAHAN */
+@media (max-width: 800px) {
+    .fact-grid,
+    .action-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .threats-layout {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+}
+
+@media (max-width: 550px) {
+    .coast-facts,
+    .coast-threats,
+    .coast-actions {
+        padding: 45px 0;
+    }
+
+    .fact-grid,
+    .action-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .fact-item,
+    .action-card {
+        padding: 21px;
+    }
+
+    .threat-item {
+        padding: 16px;
+        gap: 13px;
+    }
+
+    .actions-link .button {
+        width: 100%;
+    }
+}
+
+
+/* KARTU GAMBAR PADA BAGIAN AKSI */
+.image-action {
+    padding: 0;
+    overflow: hidden;
+}
+
+.image-action > img {
+    display: block;
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.action-card-content {
+    padding: 20px 22px 23px;
+}
+
+.image-action h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 550px) {
+    .image-action > img {
+        height: 200px;
+    }
+}
+
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footer-links h3 {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-bottom {
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    margin-top: 30px;
+    padding: 20px 0;
+    color: white;
+}
+
+.footer-bottom .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
