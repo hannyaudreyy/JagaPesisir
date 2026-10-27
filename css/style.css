@@ -1114,9 +1114,13 @@ body.education-page {
 
 /*AJAKAN SEBELUM FOOTER MENYESUAIKAN BERANDA*/
 
+
+/* AJAKAN SEBELUM FOOTER */
+
 .education-page .closing {
-    padding-top: 45px;
-    padding-bottom: 45px;
+    width: min(1100px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 55px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1128,40 +1132,59 @@ body.education-page {
 }
 
 .education-page .closing h2 {
-    margin: 0 0 6px;
+    margin: 0 0 12px;
     color: var(--mangrove);
-    font-size: clamp(25px, 3vw, 35px);
+    font-size: clamp(24px, 3vw, 32px);
     line-height: 1.3;
 }
 
 .education-page .closing > div > p:last-child {
     margin: 0;
     color: var(--muted);
-    font-size: 13px;
+    font-size: 15px;
+    line-height: 1.8;
 }
 
 .education-page .closing-button {
     flex-shrink: 0;
-    padding: 18px 28px;
-    min-height: 65px;
-    border-radius: 10px;
+    padding: 12px 20px;
+    min-height: 45px;
+    border-radius: 9px;
     background: var(--ocean);
     color: white;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .education-page .closing-button:hover {
     background: var(--mangrove);
 }
 
-/*FOOTER - MENYESUAIKAN BERANDA*/
+/* RESPONSIVE TABLET */
+@media (max-width: 800px) {
+    .education-page .closing {
+        align-items: flex-start;
+    }
+}
 
-.education-page > footer.footer {
-    margin: 0;
-    padding-top: 35px;
-    background: var(--ocean);
-    color: white;
-    font-family: Arial, sans-serif;
+/* RESPONSIVE SMARTPHONE */
+@media (max-width: 550px) {
+    .education-page .closing {
+        width: calc(100% - 32px);
+        align-items: stretch;
+        flex-direction: column;
+        gap: 18px;
+        padding: 32px 0;
+    }
+
+    .education-page .closing h2 {
+        font-size: 24px;
+    }
+
+    .education-page .closing-button {
+        width: 100%;
+        min-height: 45px;
+    }
 }
 
 .education-page > footer.footer .footer-content {
