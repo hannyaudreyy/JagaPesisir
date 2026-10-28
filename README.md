@@ -190,6 +190,10 @@ Penjelasan :
   - United Nations — SDG 14: Life Below Water — [Link sumber informasi](https://sdgs.un.org/goals/goal14)
    b. artikel
    - Kementerian Kelautan dan Perikanan (KKP) — Laut Sebasah — [Link sumber informasi](https://www.kkp.go.id/news/news-detail/laut-sebasah-upaya-nyata-menyelamatkan-laut-indonesia-nR3R.html)
+   c. tentang
+   - UNEP [Link sumber informasi](https://www.unep.org/en)
+   - NOAA Marine Debris [Link sumber informasi](https://marinedebris.noaa.gov/)
+   - FAO Mangrove [Link sumber informasi](https://www.fao.org/forestry/mangrove/en/)
 
 
 2. Sumber Gambar :
